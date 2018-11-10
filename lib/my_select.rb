@@ -1,3 +1,4 @@
 def my_select(collection)
- # your code here!
+    collection.select {|num| num % 2 == 0}
+
 end
